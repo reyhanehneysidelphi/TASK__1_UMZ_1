@@ -1,0 +1,9 @@
+scale = input("What's the type of scale youre using?")
+temperature = int(input("Please enter the temperature degree: "))
+
+if scale ==  "celsius":
+    fahrenheit = (1.8 * temperature) + 32
+    print(fahrenheit)
+elif scale == "fahrenheit":
+    celsius = (fahrenheit - 32) * 0.5
+    print(celsius)

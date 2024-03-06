@@ -1,0 +1,13 @@
+first = int(input("enter the first number: "))
+second = int(input("enter the second number: "))
+op = input("What kind of operation do you want to be performed on the numbers?")
+
+if op == "sum":
+   result = first + second
+elif op == "difference":
+   result = first - second
+elif op == "multiple":
+   result = first * second
+elif op == "divide":
+   result = first / second
+print(result)

@@ -1,0 +1,15 @@
+Balance = int(input("Please enter your account balancr: "))
+
+while True:
+ op = input("What do you want to do?")
+ if op == "withdraw":
+    Balance = Balance - int(input("How much money do you want to withdraw?"))
+    respond = input("Do you want to keep going?")
+ if respond == "no":
+     break
+ elif op == "deposit":
+    Balance = Balance + int(input("How much money do you want to deposit?"))
+    respond = input("Do you want to keep going?")
+ if respond == "no":
+    break
+print(Balance)

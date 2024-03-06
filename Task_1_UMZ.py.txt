@@ -1,0 +1,8 @@
+s = input("enter: ")
+
+if s.isdigit() == True:
+    print(type(int(s)))
+elif s.startswith("[") and s.endswith("]"):
+    print(type(list(s)))
+else: 
+    print(s)
